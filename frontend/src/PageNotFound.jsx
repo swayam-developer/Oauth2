@@ -6,7 +6,7 @@ const PageNotFound = () => {
   return (
     <div>
       <h1>Page not found!</h1>
-      <button onClick={() => navigate("/login")}>Login</button>
+      <button onClick={() => navigate("/login")}>Get Back to Login Page</button>
     </div>
   );
 };
